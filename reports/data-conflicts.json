@@ -1,0 +1,180 @@
+{
+  "totalConflicts": 15,
+  "generatedAt": "2026-11-09T09:31:28.432Z",
+  "policy": "Divergent assertions between classical Ayurvedic traditions are preserved in parallel rather than arbitrarily overwritten.",
+  "conflicts": [
+    {
+      "dravyaSlug": "nagarmotha",
+      "botanicalName": "Cyperus rotundus",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Tikta",
+        "Katu"
+      ],
+      "sourceC": [
+        "Tikta",
+        "Katu",
+        "Kashaya"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "nagarmotha",
+      "botanicalName": "Cyperus rotundus",
+      "fieldName": "virya",
+      "sourceA": "Ushna",
+      "sourceC": "Sheeta",
+      "conflictType": "divergent_virya_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "kanchanar",
+      "botanicalName": "Bauhinia variegata",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "sourceC": [
+        "Kashaya"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "kanchanar",
+      "botanicalName": "Bauhinia variegata",
+      "fieldName": "virya",
+      "sourceA": "Ushna",
+      "sourceC": "Sheeta",
+      "conflictType": "divergent_virya_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "patola",
+      "botanicalName": "Trichosanthes dioica",
+      "fieldName": "virya",
+      "sourceA": "Sheeta",
+      "sourceC": "Ushna",
+      "conflictType": "divergent_virya_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "tamalpatra",
+      "botanicalName": "Cinnamomum tamala",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Tikta",
+        "Katu"
+      ],
+      "sourceC": [
+        "Katu",
+        "Madhura"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "eranda",
+      "botanicalName": "Ricinus communis",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Madhura",
+        "Katu"
+      ],
+      "sourceC": [
+        "Madhura"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "mochras",
+      "botanicalName": "Bombax ceiba",
+      "fieldName": "vipaka",
+      "sourceA": "Katu",
+      "sourceC": "Madhura",
+      "conflictType": "divergent_vipaka_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "tila",
+      "botanicalName": "Sesamum indicum",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Madhura",
+        "Kashaya"
+      ],
+      "sourceC": [
+        "Madhura"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "tila",
+      "botanicalName": "Sesamum indicum",
+      "fieldName": "virya",
+      "sourceA": "Ushna",
+      "sourceC": "Sheeta",
+      "conflictType": "divergent_virya_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "amra",
+      "botanicalName": "Mangifera indica",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Madhura",
+        "Kashaya"
+      ],
+      "sourceC": [
+        "Kashaya"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "amra",
+      "botanicalName": "Mangifera indica",
+      "fieldName": "vipaka",
+      "sourceA": "Madhura",
+      "sourceC": "Katu",
+      "conflictType": "divergent_vipaka_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "jambu",
+      "botanicalName": "Syzygium cumini",
+      "fieldName": "rasa",
+      "sourceA": [
+        "Kashaya",
+        "Madhura"
+      ],
+      "sourceC": [
+        "Kashaya"
+      ],
+      "conflictType": "divergent_rasa_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "kakamachi",
+      "botanicalName": "Solanum nigrum",
+      "fieldName": "virya",
+      "sourceA": "Ushna",
+      "sourceC": "Sheeta",
+      "conflictType": "divergent_virya_assertion",
+      "resolution": "both_preserved_as_assertions"
+    },
+    {
+      "dravyaSlug": "nagadanti",
+      "botanicalName": "Heliotropium indicum",
+      "fieldName": "virya",
+      "sourceA": "Sheeta",
+      "sourceC": "Ushna",
+      "conflictType": "divergent_virya_assertion",
+      "resolution": "both_preserved_as_assertions"
+    }
+  ]
+}

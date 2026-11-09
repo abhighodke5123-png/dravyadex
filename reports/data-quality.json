@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-11-09T09:31:03.043Z",
+  "overallStatus": "PASS",
+  "datasets": {
+    "source_a_amidha": {
+      "source": "Amidha Herb Database v2.0.0",
+      "file": "herb.json",
+      "license": "CC BY 4.0",
+      "sha256": "93a7dd1f244b931e5dcf82a9fe37112d549370c05b6c0eefb2b1cd81ae8a4140",
+      "totalRecords": 360,
+      "completeness": {
+        "imageRate": "0.000",
+        "indicationsRate": "1.000",
+        "missingRequiredFieldInstances": 0
+      },
+      "ayurvedicFidelity": {
+        "nonCanonicalRasas": 0,
+        "nonCanonicalGunas": 0,
+        "nonCanonicalViryas": 0,
+        "nonCanonicalVipakas": 0
+      },
+      "status": "VALID"
+    },
+    "source_b_explorer": {
+      "source": "Ayurvedic Herb Explorer",
+      "license": "MIT (Software) / CC BY 4.0 (Data)",
+      "sha256_appjs": "3929719dea728f1b4c42fbac014b51e26cadec7a2b8a7f7177c4b35e1b9b09dc",
+      "findings": "Fetches directly from Source A (herb.json). Acts as presentation layer with identical 360 canonical records.",
+      "effectiveRecordCount": 360,
+      "status": "ALIGNED_WITH_SOURCE_A"
+    },
+    "source_c_nighantu": {
+      "source": "Age Ayurveda Nighantu",
+      "conceptDoi": "10.5281/zenodo.22805684",
+      "license": "CC BY 4.0",
+      "files": {
+        "manifest": {
+          "file": "MANIFEST.json",
+          "sha256": "af08b4e7cb31cb528ebd4c480aaaed65f999e57bfeda4b5a3ff881f7441e3353",
+          "recordCount": 12,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "dravyaguna": {
+          "file": "dravyaguna.json",
+          "sha256": "eddb157733eb369bea70a7c7faee2e817b4d0451daa2f1f0c7e961274e944796",
+          "recordCount": 246,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "taxonomy": {
+          "file": "taxonomy.json",
+          "sha256": "a48ec2864bf851efd10bd18feadd77c8c9d74e12877f1392091d9dd6c5822635",
+          "recordCount": 284,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "afi": {
+          "file": "afi-crosswalk.json",
+          "sha256": "5796179a659b69580df31d7431cfd456c76b843db8dbe1675cd3295df77b10de",
+          "recordCount": 2144,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "compounds": {
+          "file": "compounds.json",
+          "sha256": "98e2c14fec719b9d50d0872f3e2b72af978a3c4eea679a4fc36f63161d6c6e06",
+          "recordCount": 816,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "research": {
+          "file": "research.json",
+          "sha256": "6f3332f8bc22f772bc1491cfd3a85a9e80636e678b0bbdda2f2ce65cbb83404e",
+          "recordCount": 3593,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "composition": {
+          "file": "composition.json",
+          "sha256": "0fb052046210208219c834d0e1432f5487d92c76da166b28f64827d3576166c2",
+          "recordCount": 106,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "lexicon": {
+          "file": "lexicon.json",
+          "sha256": "186e8c50f0e7b2407c1887859abf1ea76ba44c93e62b98676a316836f42c84a0",
+          "recordCount": 277,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        },
+        "verification": {
+          "file": "verification.json",
+          "sha256": "1c0f41659202ff173101ee31ac8f3e0454ff6dfb8422345aeeb5c5c0bd8bcf8e",
+          "recordCount": 7,
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "VALID"
+        }
+      }
+    }
+  },
+  "crossSourceMetrics": {
+    "canonicalEntities": 360,
+    "pharmacologicalMonographs": 246,
+    "botanicalTaxa": 284,
+    "formulationCrosswalkRows": 2144,
+    "phytochemicalCompounds": 816,
+    "biomedicalResearchCitations": 3593,
+    "classicalFormulations": 106,
+    "ayurvedicTerminologyCount": 277,
+    "totalAttributesAudited": 3960,
+    "fieldCompletenessRate": 1,
+    "anomaliesFound": 0
+  }
+}
